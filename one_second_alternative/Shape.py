@@ -63,7 +63,7 @@ class Shape:
         #se busca sacar el coseno del ángulo entre 2 vectores y se aplica arccos
         angles = []
         if self._is_regular == True:
-            if type(self) == Equilateral:
+            if str(type(self)) == "Equilateral":
                 return f"los ángulos internos valen {180/len(self.lines)}"
             else: return f"los ángulos internos valen {360/len(self.lines)}"
         else: pass
