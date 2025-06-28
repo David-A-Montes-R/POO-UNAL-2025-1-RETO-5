@@ -1,4 +1,4 @@
-import Shape
+from .Shape import *
 class Rectangle(Shape):
     def __init__(self, is_regular, *Lines):
         self.lines = Lines

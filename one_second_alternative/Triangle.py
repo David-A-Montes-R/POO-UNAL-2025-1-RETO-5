@@ -1,4 +1,4 @@
-from Shape import *
+from .Shape import *
 class Triangle(Shape):
     def __init__(self, is_regular, *Lines):
         super().__init__(is_regular, *Lines)
